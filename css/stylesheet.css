@@ -1,0 +1,63 @@
+body {
+    background-color: #ede6de;
+}
+
+.short-heading {
+    font-family: cursive;
+    color: #066468;
+    font-size: 1.5rem;
+}
+
+.main-heading {
+    color: #6e6e6e;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card-text {
+    font-size: 1.5rem;
+}
+
+.card a {
+    text-decoration: none;
+}
+
+.my-btn {
+    color: whitesmoke;
+    background-image: linear-gradient(86deg, #226172, #5abbd3);
+    font-size: 1rem;
+}
+
+.reviews-div img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.picture-div {
+    background-image: url(../images/flower-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    border-radius: .5rem;
+}
+
+.center-card-div .my-btn {
+    top: 45%;
+    left: 40%;
+}
+
+.map-address-div {
+    width: 100%;
+    height: 40vh;
+}
+
+.footer li {
+    list-style: none;
+}
+
+.follow-us a {
+    font-size: 1.5rem;
+    color: #6e6e6e;
+    margin: 5% 5%;
+}
