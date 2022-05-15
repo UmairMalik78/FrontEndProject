@@ -13,34 +13,78 @@
 
 <body>
     <div class="container-fluid">
-        <!-- Top Navbar Code -->
-        <nav class="navbar navbar-expand-lg bg-black">
-            <div class="container-fluid">
-                <a class="navbar-brand text-light" href="#">MyNewWebsite</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                    <!-- Navbar Links -->
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active text-light" aria-current="page" href="#"><i class="fa fa-phone text-light mx-1" aria-hidden="true"></i>032345645</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active text-light" aria-current="page" href="#"><i class="fa fa-envelope-o text-light mx-1" aria-hidden="true"></i>mywebsite@gmail.com</a>
-                        </li>
-                    </ul>
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active text-light" aria-current="page" href="#">Login</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active text-light" aria-current="page" href="#">Register</a>
-                        </li>
-                    </ul>
-                </div>
+        <div class="position-relative" style="height: 50vh;">
+            <!-- Top Video -->
+            <div class="video-container">
+                <video autoplay muted>
+                    <source src="../videos/home-page-video.mp4" type="video/mp4">
+                </video>
             </div>
-        </nav>
+            <!-- Top Navbar -->
+            <nav class="top-navbar navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand text-light" href="#">MyNewWebsite</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#topNavbarTogglerDemo02" aria-controls="topNavbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                    <div class="collapse navbar-collapse" id="topNavbarTogglerDemo02">
+                        <!-- Navbar Links -->
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active text-light" aria-current="page" href="#"><i class="fa fa-phone text-light mx-1" aria-hidden="true"></i>032345645</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text-light" aria-current="page" href="#"><i class="fa fa-envelope-o text-light mx-1" aria-hidden="true"></i>mywebsite@gmail.com</a>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active text-light" aria-current="page" href="#">Login</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text-light" aria-current="page" href="#">Register</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- Center Navbar -->
+            <div class="search-navbar position-absolute w-50 ">
+                <nav class="navbar navbar-expand-lg navbar-dark text-light rounded-pill p-md-3 p-sm-2 p-1">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">MyNewWebSite</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link " aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <div class="dropdown">
+                                        <a class="nav-link" href="#">Contact Us</a>
+                                        <div class="dropdown-content p-0 bg-transparent">
+                                            <ul class="p-0 ">
+                                                <li><a href="#">Link 1</a></li>
+                                                <li><a href="#">Link 1</a></li>
+                                                <li><a href="#">Link 1</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link disabled">Our Story</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
     </div>
     <div class="container">
         <!-- Heading Section -->
